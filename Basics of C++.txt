@@ -1,0 +1,40 @@
+Name-Rishu Raj
+Prn-24070123141
+ENTC-B2
+
+
+Code: 1. #include <iostream> 
+using namespace std;
+
+int main() {
+    cout << "Hello World";  
+    return 0;               
+}
+
+Output: PS C:\Users\Rishu Raj\New folder\c programme> cd "c:\Users\Rishu Raj\New folder\c programme\" ; if ($?) { g++ a.cpp -o a } ; if ($?) { .\a }
+Hello World
+
+2. #include <iostream>
+using namespace std;
+
+int main() {
+    float a, b;
+    
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+
+    cout << "Sum = " << a + b << endl;
+    cout << "Difference = " << a - b << endl;
+    cout << "Product = " << a * b << endl;
+    cout << "Quotient = " << a / b << endl;
+
+    return 0;
+}
+
+Output: PS C:\Users\Rishu Raj\New folder\c programme> cd "c:\Users\Rishu Raj\New folder\c programme\" ; if ($?) { g++ a.cpp -o a } ; if ($?) { .\a }
+Enter two numbers: 2
+4
+Sum = 6
+Difference = -2
+Product = 8
+Quotient = 0.5
